@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  /* padding: 20px;  */
+   background-image: url(frame.png);
+  background-size: 99% 99%;
+}
+
+.customer-card {
+
+  border-radius: 15px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  
+  box-sizing: border-box;
+  background-image: url(frame.png);
+  background-size: 100% 100%;
+}
+
+.customer-card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.customer-card ul {
+  padding: 20px;
+}
+
+.customer-card ul li {
+  list-style-type: none;
+}
+
+#loadCustomers {
+  display: block;
+  /* margin: 20px auto;
+  padding: 10px 20px; */
+  font-size: 1em;
+}
+
+.btn {
+  margin-right: 10px;
+}
