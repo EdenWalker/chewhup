@@ -43,12 +43,13 @@ function renderCustomerList(customers) {
       </ul>
       <div style="padding-left: 20px;">
       <button class="btn btn-warning edit" data-customerid="${index}">Edit</button>
-      <button class="btn btn-danger delete" data-customerid="${index}">Delete</button>
+      <button class="btn btn-warning delete" data-customerid="${index}">Delete</button>
     </div>
       </div>
   `).join('');
 
   attachCustomerEventListeners(customers);
+  console.log(customers)
 }
 
 function attachCustomerEventListeners(customers) {
